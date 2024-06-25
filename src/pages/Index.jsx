@@ -10,8 +10,11 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4}>
-        <Text fontSize="2xl">Your Blank Canvas</Text>
-        <Text>Chat with the agent to start making edits.</Text>
+        <Text fontSize="2xl">Accessibility Errors Showcase</Text>
+        <Text>This website demonstrates common accessibility errors and how to fix them.</Text>
+        <Text as="a" href="/error1" color="blue.500">Error Page 1</Text>
+        <Text as="a" href="/error2" color="blue.500">Error Page 2</Text>
+        <Text as="a" href="/error3" color="blue.500">Error Page 3</Text>
       </VStack>
     </Container>
   );
